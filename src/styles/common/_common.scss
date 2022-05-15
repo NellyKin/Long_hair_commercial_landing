@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  border: none;
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-weight: 400;
+  // letter-spacing: 0.06em;
+  // line-height: 1em;
+  // min-height: 100%;
+  overflow: hidden;
+}
+
+
+.container {
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 5px;
+  max-width: 1320px;
+  outline: 1px solid red;
+
+
+  // @media (max-width: $tablet-max) {
+  //   max-width: $tablet-max;
+  //   padding: 0 30px;
+  // }
+
+  // @media (max-width: $mobile-max) {
+  //   max-width: $mobile-max;
+  //   padding: 0 10px;
+  // }
+}
+
+.flex__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+
