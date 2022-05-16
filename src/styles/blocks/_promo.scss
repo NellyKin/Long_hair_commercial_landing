@@ -1,0 +1,46 @@
+.promo__block {
+  position: relative;
+  background-color: rgba(#6C6A72, 0.9);
+}
+
+
+.promo__img {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.promo__container {
+  flex-direction: column;
+  padding-top: 230px;
+  padding-bottom: 195px;
+}
+
+.container {}
+
+
+.promo__subtitle {
+  font-size: 18px;
+  color: #ffffff99;
+  letter-spacing: 0.19em;
+  border-bottom: 1px solid #ffffff99;
+
+}
+
+.promo__title {
+  margin: 60px 0;
+  max-width: 60%;
+  font-size: 100px;
+  color: $color-light;
+  line-height: 1em;
+  text-align: center;
+}
+
+.promo__button {}
+
+.buttons {}
+
+.button__link {}

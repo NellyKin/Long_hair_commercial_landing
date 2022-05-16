@@ -1,0 +1,183 @@
+.header__block {
+  display: flex;
+}
+
+.header {}
+
+.header__logo {
+  margin-right: 2.2em;
+  background-color: $color-dark;
+  flex-basis: 15%;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.logo__link {
+  text-align: center;
+
+  & img {
+    width: 70%;
+  }
+}
+
+
+.header__container {
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.header__content {
+
+}
+
+.header-content__top {
+  border-bottom: 1px solid rgb(228, 224, 238);
+}
+
+.header-content__title {
+  flex-basis: 35%;
+  @include header__text;
+  padding: 0.5em 0;
+  line-height: 1.66em;
+}
+
+.header-content__body {
+  align-items: center;
+}
+
+.header-content__info:not(:last-child) {
+  padding-right: 2.2em;
+}
+
+.info__text {
+  @include header__text;
+  line-height: 1.225em;
+}
+
+.info__link {
+  position: relative;
+}
+
+.link__animation-left a::before {
+content: '';
+bottom: 0;
+left: 0;
+position: absolute;
+width: 0%;
+height: 1px;
+background-color: $color-accent;
+transition: all .5s ease;
+}
+
+.link__animation-left a:hover:before {
+  width: 100%;
+}
+
+.header__networks {
+  flex-basis: 28%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f2f9;
+}
+
+.header-content__bottom {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  padding: 0.625em 0;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item:not(:last-child) {
+    padding-right: 2.8em;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    @include regular__text;
+    line-height: 1.9em;
+
+    &:active {
+      color: $color-primary;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
+}
+
+
+// .header {
+//   // position: absolute;
+//   // left: 0;
+//   // top: 0;
+// }
+
+// .header__block {
+//   display: flex;
+// }
+
+// .header__container {
+//   flex: 2 1 auto;
+//   width: 100%;
+// }
+
+// .header__logo {
+//   flex: 1 1 auto;
+//   background-color: $color-dark;
+//   box-sizing: content-box;
+//   padding: 40px 35px 40px 35px;
+//   text-align: center;
+// }
+
+// .logo__img {
+//   width: auto;
+//   height: 41px;
+// }
+
+// .header__content {
+
+// }
+
+// .content__top {
+//   margin-left: 35px;
+//   padding: 16px 35px 16px 0;
+//   border-bottom: 1px solid rgba($color-font, 0.5);
+// }
+
+// .top__body {
+//   justify-content: space-between;
+//   flex-basis: 50%;
+// }
+
+// .top__title {
+//   @include header__text;
+// }
+
+// .content__bottom {
+//   padding: 35px 35px;
+// }
+
+// .header__contact {}
+
+// .contact__call {}
+
+// .contact__number {}
+
+// .network {
+//   flex: 1 1 auto;
+//   background-color: rgba(#6C6A72,0.2);
+// }
+
+
+
+
+
