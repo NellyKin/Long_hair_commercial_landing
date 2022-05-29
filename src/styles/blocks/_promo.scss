@@ -1,46 +1,118 @@
-.promo__block {
-  position: relative;
-  background-color: rgba(#6C6A72, 0.9);
-}
-
-
-.promo__img {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.promo {
+  background-color: rgba(#F5F2F0, .8);
 }
 
 .promo__container {
-  flex-direction: column;
-  padding-top: 230px;
-  padding-bottom: 195px;
+  display: flex;
+  // align-items: center;
 }
 
-.container {}
+.promo__background {
+  position: relative;
+  top: 0;
+  left: 1100px;
+}
 
+.promo__background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.promo__content {
+  flex-basis: 55%;
+}
 
 .promo__subtitle {
-  font-size: 18px;
-  color: #ffffff99;
-  letter-spacing: 0.19em;
-  border-bottom: 1px solid #ffffff99;
-
+  padding-top: 140px;
+  font-weight: 700;
+  font-size: calc(38 / 16) * 1rem;
+  color: $color-dark;
 }
 
 .promo__title {
-  margin: 60px 0;
-  max-width: 60%;
-  font-size: 100px;
-  color: $color-light;
-  line-height: 1em;
-  text-align: center;
+  padding: calc(20 / 16) * 1rem 0 calc(26 / 16) * 1rem;
+  font-weight: 800;
+  font-size: calc(42 / 16) * 1rem;
+  color: $color-accent-orange;
 }
 
-.promo__button {}
+.promo__text {
+  padding-bottom: calc(20 / 16) * 1rem;
+  font-weight: 500;
+  font-size: calc(20 / 16) * 1rem;
+  color: $color-light-gray
+}
 
-.buttons {}
+.promo__image {
+  position: relative;
+  top: 0;
+  left: calc(40 / 16) * 1rem;
+  flex-basis: 40%;
+  max-height: 90%;
+}
 
-.button__link {}
+.promo__image img {
+  padding-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+
+// .promo {
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// .promo__container {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .promo__content {
+//   flex-basis: 60%;
+//   padding: 100px 0;
+
+// }
+
+// .promo__title {
+//   margin: 0;
+//   font-size: 1rem;
+//   line-height: 64px;
+
+// }
+
+// .promo__text {
+//   font-size: 3rem;
+//   font-weight: 700;
+//   line-height: 64px;
+//   color: $color-dark-yellow;
+// }
+
+// .promo__text_white {
+//   font-size: 2rem;
+//   color: $color-light;
+//   line-height: 64px;
+// }
+
+// .call__form {
+//   display: inline-block;
+//   margin-top: 32px;
+// }
+
+// .promo__call {}
+
+// .promo__link {}
+
+// .promo__img {
+//   flex-basis: 40%;
+//   position: relative;
+// }
+
+// .promo__img img{
+//   position: absolute;
+//   top: 0;
+//   left: 20px;
+
+// }

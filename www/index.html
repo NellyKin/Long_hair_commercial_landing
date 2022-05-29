@@ -16,332 +16,266 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <header class="header__block header">
-      <div class="header__logo logo flex__block">
-        <a href="#" class="logo__link">
-          <img src="/img/header_img/logo-white.png" alt="logo" />
-        </a>
-      </div>
-
-      <div class="header__container container">
-        <div class="header__content">
-          <div class="header-content__top flex__block">
-            <span class="header-content__title"
-              >Welcome to IT Solutions & Services WordPress Theme</span
-            >
-
-            <div class="header-content__body flex__block">
-              <div
-                class="header-content__info link__animation-left flex__block"
-              >
-                <i class="fa-solid fa-envelope"></i>
-                <a href="#" class="info__link info__text" title="addres"
-                  >needhelp@company.com</a
-                >
-              </div>
-
-              <div class="header-content__info flex__block">
-                <i class="fa-solid fa-clock"></i>
-                <span class="info__text">Mon - Sat: 8.00 am - 7.00 pm</span>
-              </div>
-            </div>
-
-            <div class="header__networks networks flex__block">
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-pinterest-p"></i>
-              <i class="fa-brands fa-instagram"></i>
-            </div>
+    <div class="top__info">
+      <div class="top__container container">
+        <div class="top__content contacts">
+          <div class="contact__items contact__call">
+            <i class="fa-solid fa-phone contact__icon icons"></i>
+            <a href="tel:+79999999999" class="contact__text info__text"
+              >+7 (999) 999-99-99
+            </a>
           </div>
-          <div class="header-content__bottom">
-            <nav class="header__menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="" class="menu__link"
-                    >Home<i class="fa-solid fa-chevron-down"></i
-                  ></a>
-                </li>
-                <li class="menu__item">
-                  <a href="" class="menu__link">About</a>
-                </li>
-                <li class="menu__item">
-                  <a href="" class="menu__link"
-                    >Pages<i class="fa-solid fa-chevron-down"></i
-                  ></a>
-                </li>
-                <li class="menu__item">
-                  <a href="" class="menu__link"
-                    >Services<i class="fa-solid fa-chevron-down"></i
-                  ></a>
-                </li>
-                <li class="menu__item">
-                  <a href="" class="menu__link"
-                    >Blog<i class="fa-solid fa-chevron-down"></i
-                  ></a>
-                </li>
-                <li class="menu__item">
-                  <a href="" class="menu__link">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="header-content__button buttons link__animation-left">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-mobile-screen"></i>
-              <span>Call Anytime</span>
-              <a class=" info__link" href="">+ 88 ( 9800 ) 6802</a>
 
-
-            </div>
+          <div class="contact__items contact__mail">
+            <i class="fa-solid fa-envelope contact__icon icons"></i>
+            <a href="" class="contact__text info__text">yourmail@mail.com</a>
           </div>
         </div>
+        <nav class="top__content networks">
+          <ul class="networks__list">
+            <li class="network__item">
+              <a href="" class="network__link">
+                <i class="fa-brands fa-whatsapp network__icon icons"></i
+                  ><span class="network__text info__text">WhatsApp</span>
+                </a>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="" class="network__link">
+                <i class="fa-brands fa-vk network__icon icons"></i
+                  ><span class="network__text info__text">VK</span>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="" class="network__link">
+                <i class="fa-brands fa-instagram network__icon icons"></i
+                  ><span class="network__text info__text">Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <header class="header__block header">
+      <div class="header__container container">
+        <a href="#" class="logo__link">
+          <img src="/img/header_img/header__logo.svg" alt="Логотип" class="logo"/>
+          </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="" class="menu__link">Как продать волосы</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Онлайн оценка</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Отзывы</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Частые вопросы</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Блог</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="call__form button">
+            <a href="" class="call__button">
+              Оставить заявку <i class="fa-solid fa-paper-plane call__icon icons"></i>
+            </a>
+          </div>
+          <!-- <div class="call__form">
+            <a href="" class="call__button button">
+            <svg class="button__svg">
+              <rect rx="20" ry="20" class="button__rect"></rect>
+            </svg>Оставить заявку</a> -->
+
       </div>
     </header>
 
-    <!-- <header class="header__block header">
-        <div class="header__logo">
-          <a href="#" class="logo__link">
-            <img
-              src="/img/header_img/logo-white.png"
-              alt="logo"
-              class="logo__img ibg"
-            />
-          </a>
-        </div>
+    <main>
+      <section class="promo">
+        <div class="promo__container container">
+          <div class="promo__background">
+            <img src="/img/main__img/promo__elements.svg" alt="">
+          </div>
+          <div class="promo__content">
+            <h2 class="promo__subtitle">Хотите продать свои волосы?</h2>
+            <h1 class="promo__title">
+              Купим ваши волосы дорого!
+            </h1>
+            <p class="promo__text">Покупаем натуральные волосы в Санкт-Петербурге и ЛО</p>
 
-        <div class="header__container container">
-          <div class="header__content">
-            <div class="content__top">
-              <div class="top__body flex__block">
-                <span class="top__title">
-                  Welcome to IT Solutions & Services WordPress Theme
-                </span>
-
-                <div class="info flex__block">
-                  <div class="info__mail flex__block">
-                    <i class="icon__mail icons">
-                      <img
-                        src="/img/header_img/icon-email.png"
-                        alt="mail icon"
-                      />
-                    </i>
-                    <a href="" class="mail__text">needhelp@company.com</a>
-                  </div>
-                  <div class="info__time flex__block">
-                    <i class="icon__time icons">
-                      <img
-                        src="/img/header_img/icon-clock.png"
-                        alt="mail icon"
-                      />
-                    </i>
-                    <span class="time__text">
-                      Mon - Sat: 8.00 am - 7.00 pm
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="promo__buttons">
+              <a href="" class="promo__button promo__button_orange">Продать волосы</a>
+              <a href="" class="promo__button
+              promo__button_transparent">О нас</a>
             </div>
 
-            <div class="content__bottom flex__block">
-              <nav class="bottom__menu menu">
-                <ul class="menu__list flex__block">
-                  <li class="menu__item">
-                    <a href="" class="menu__link">Home</a>
-                    <i>
-                      <img src="" alt="" class="down-arrow__icon" />
-                    </i>
-                  </li>
-                  <li class="menu__item">
-                    <a href="" class="menu__link">About</a>
-                  </li>
-                  <li class="menu__item">
-                    <a href="" class="menu__link">Pages </a>
-                    <i>
-                      <img src="" alt="" class="down-arrow__icon" />
-                    </i>
-                  </li>
-                  <li class="menu__item">
-                    <a href="" class="menu__link">Services</a>
-                    <i>
-                      <img src="" alt="" class="down-arrow__icon" />
-                    </i>
-                  </li>
-                  <li class="menu__item">
-                    <a href="" class="menu__link">Blog</a>
-                    <i>
-                      <img src="" alt="" class="down-arrow__icon" />
-                    </i>
-                  </li>
-                  <li class="menu__item">
-                    <a href="" class="menu__link">Contact</a>
-                  </li>
+          </div>
+
+          <div class="promo__image img">
+            <img src="/img/main__img/promo__image.svg" alt="Thinking girl">
+          </div>
+        </div>
+      </section>
+
+      <section class="lead">
+        <div class="lead__container container">
+          <div class="lead__position">
+            <div class="lead__background">
+            </div>
+
+            <div class="lead__image img">
+              <img src="/img/main__img/lead_image.svg" alt="Thinking girl">
+            </div>
+
+          <div class="lead__content">
+            <h3 class="lead__subtitle">Устали от длинных волос?</h3>
+            <h2 class="lead__title">Решение есть! Доверьте нам покупку Ваших волос!</h2>
+
+          <div class="lead__form">
+            <a href="" class="lead__button"><i class="fa-solid fa-circle-check check__icon icons"></i><span class="check__text">Пройти онлайн-оценку</span></a>
+          </div>
+          </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits__container container">
+          <div class="benefits__background_top">
+            <img src="/img/main__img/benefits__element_top.svg" alt="">
+          </div>
+
+          <div class="benefits__background_bottom">
+            <img src="/img/main__img/benefits_element_bottom.svg" alt="">
+          </div>
+          <div class="benefits__title">
+            Наши преимущества
+          </div>
+          <div class="benefits__body">
+            <ul class="benefits__list">
+              <li class="benefit__item">
+                  <div class="item__content">
+                    <img src="/img/main__img/benefit_img_scissors.svg" alt="" class="benefit__img">
+                </img>
+                  <h2 class="benefit__title">
+                  Покупаем волосы полным объемом
+                </h2>
+                <p class="benefit__text">
+                  Мы не вычёсываем короткие волосы из среза и не уменьшаем их в объёме
+                </p>
+                  </div>
+                  <div class="item__circle circle__position_top-left"></div>
+              </li>
+
+              <li class="benefit__item">
+                <div class="item__content">
+                    <img src="/img/main__img/benefit_img_wallet.svg" alt="" class="benefit__img">
+                </img>
+                  <h2 class="benefit__title">
+                  Покупаем волосы дорого
+                </h2>
+                <p class="benefit__text">
+                  Покупаем волосы дорого.
+                  У нас самые высокие расценки на покупку волос
+                </p>
+                <div class="item__circle circle__position_top-right"></div>
+              </li>
+
+              <li class="benefit__item">              
+                  <div class="item__content">
+                    <img src="/img/main__img/benefit_img_money.svg" alt="" class="benefit__img">
+                </img>
+        
+                  <h2 class="benefit__title">
+                  Деньги сразу
+                </h2>
+                <p class="benefit__text">
+                  Вы получите свои деньги сразу же после среза волос
+                </p>
+                <div class="item__circle circle__position_bottom-left"></div>
+              </li>
+
+              <li class="benefit__item">
+                <div class="item__content">
+                    <img src="/img/main__img/benefit_img_heart.svg" alt="" class="benefit__img">
+                </img>
+                  <h2 class="benefit__title">
+                  С нами безопасно
+                </h2>
+                <p class="benefit__text">
+                  Мы работаем максимально честно и прозрачно. Ответим на все интересующие Вас вопросы
+                </p>
+                <div class="item__circle circle__position_bottom-right"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- <div class="background__image">
+
+    <main class="main">
+      <div class="header__body container">
+
+        </div>
+
+        <section class="promo">
+          <div class="promo__container container">
+            <div class="promo__content">
+
+              <p class="promo__text promo__text_white">
+                Хотите продать свои волосы?
+              </p>
+              <p class="promo__text">
+                Купим ваши волосы дорого!
+              </p>
+
+              <h1 class="promo__title">
+                Покупаем натуральные волосы в Санкт-Петербурге и ЛО
+              </h1>
+              <div class="call__form promo__call">
+                <a href="" class="promo__link">Связаться с нами</a>
+              </div>
+            </div>
+          <div class="promo__img">
+            <img src="/img/main__img/promo__girl.png" alt="" />
+          </div>
+          </div>
+        </section>
+
+        <section class="reasons">
+          <div class="reasons__container container">
+            <img src="" alt="">
+            <div class="reasons__content">
+              <p class="reason__text">Если вы</p>
+              <nav class="reasons__list">
+                <ul class="reasons__items">
+                  <li class="reason__element">
+                    <a href="" class="reason__link"></a></li>
+                  <li class="reason__element"><a href="" class="reason__link"></a></li>
+                  <li class="reason__element"><a href="" class="reason__link"></a></li>
+                  <li class="reason__element"><a href="" class="reason__link"></a></li>
+                  <li class="reason__element"><a href="" class="reason__link"></a></li>
+                  <li class="reason__element"><a href="" class="reason__link"></a></li>
                 </ul>
               </nav>
-
-              <div class="header__contact">
-                <span class="contact__call">Call Anytime</span>
-                <span class="contact__number">+ 88 ( 9800 ) 6802</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="network">
-          <ul class="network__list flex__block">
-            <li class="network__item">
-              <a href="" class="network__link"
-                ><img
-                  src="/img/header_img/icon-twitter.png"
-                  alt="twitter-icon"
-                  class="icon__network icons"
-              /></a>
-            </li>
-            <li class="network__item">
-              <a href="#" class="network__link"
-                ><img
-                  src="/img/header_img/icon-facebook.png"
-                  alt="facebook icon"
-                  class="icon__network icons"
-              /></a>
-            </li>
-            <li class="network__item">
-              <a href="" class="network__link"
-                ><img
-                  src="/img/header_img/icon-pinterest.png"
-                  alt="pinterest icon"
-                  class="icon__network icons"
-              /></a>
-            </li>
-            <li class="network__item">
-              <a href="" class="network__link"
-                ><img
-                  src="/img/header_img/icon-instagram.png"
-                  alt="instagram icon"
-                  class="icon__network icons"
-              /></a>
-            </li>
-          </ul>
-        </div>
-      </header>
-
-      <main class="main">
-        <section class="promo__block promo">
-          <img
-            class="promo__img ibg"
-            src="/img/main__img/promo__background-01.jpg"
-            alt=""
-          />
-          <div class="promo__container container flex__block">
-            <h2 class="promo__subtitle">EXPERIENCE THE BEST IT SOLUTIONS</h2>
-            <h1 class="promo__title">IT SOLUTIONS & SERVICES</h1>
-
-            <div class="promo__button buttons">
-              <a href="#" class="button__link"> LEARN MORE </a>
             </div>
           </div>
         </section>
 
-        <section class="about__block about">
-          <div class="about__container container flex__block">
-            <div class="about__image flex__block">
-              <img
-                src="/img/main__img/about_img01.jpg"
-                alt=""
-                class="about-image__back-image"
-              />
-              <img
-                src="/img/main__img/about_img2.png"
-                alt=""
-                class="about-image__back-sign"
-              />
-              <img
-                src="/img/main__img/about_img03.jpg"
-                alt=""
-                class="about-image__front-img"
-              />
-            </div>
-            <div class="about__content">
-              <h2 class="about__title">— About Your Company</h2>
-              <h3 class="about__subtitle">We're Partner of Your Innovations</h3>
-              <p class="about__text">
-                Infetech is a provider of IT consulting and software development
-                services. We have helped organizations and companies improve
-                business performance & enhance their competitiveness.
-              </p>
-              <div class="about__items flex__block">
-                <div class="about__item">
-                  <i class="about-item__icon">
-                    <img
-                      src="/img/main__img/icon_about_programming .png"
-                      alt=""
-                    />
-                  </i>
-                  <span class="about-item__text">Website Development</span>
-                </div>
-                <div class="about__item">
-                  <i class="about-item__icon">
-                    <img src="/img/main__img/icon_about_network.png" alt="" />
-                  </i>
-                  <span class="about-item__text">Internal Networking</span>
-                </div>
-              </div>
-              <div class="about__preference flex__block">
-                <i class="preference__icon">
-                  <img
-                    src="/img/main__img/icon_about_tick-mark.png"
-                    alt="check-point mark"
-                  />
-                </i>
-                <span class="preference__text"
-                  >Bringing new IT solutions to the market</span
-                >
-              </div>
-              <div class="about__preference">
-                <i class="preference__icon">
-                  <img
-                    src="/img/main__img/icon_about_tick-mark.png"
-                    alt="check-point mark"
-                  />
-                </i>
-                <span class="preference__text"
-                  >To be included the list of the best 100 IT companies</span
-                >
-              </div>
-              <div class="about__preference">
-                <i class="preference__icon">
-                  <img
-                    src="/img/main__img/icon_about_tick-mark.png"
-                    alt="check-point mark"
-                  />
-                </i>
-                <span class="preference__text"
-                  >Our company have 300 IT senior professionals.</span
-                >
-              </div>
-              <div class="about__button buttons">ABOUT US</div>
-            </div>
-          </div>
-        </section>
-
-        <section class="benefits__block benefits">
-          <div class="benefits__container container">
-            <div class="benefits__content">
-              <img
-                src="/img/main__img/benefits_image-01.jpg"
-                alt=""
-                class="benefit__img ibg"
-              />
-            </div>
-            <div class="benefit__body">
-              <i class="benefit__icon icons">
-                <img src="/img/main__img/icon_benefit-01.png" alt=""
-              /></i>
-              <span class="benefit__text"
-                >Perfect solutions that business demands</span
-              >
-            </div>
-          </div>
-        </section>
-      </main>
-    </div> -->
+    </main> -->
 
     <script src="scripts/script.js"></script>
   </body>

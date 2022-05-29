@@ -5,11 +5,19 @@
 @import "common/_mixins";
 
 // blocks
+@import "blocks/_top";
 @import "blocks/_header";
-// @import "blocks/_buttons";
+@import "blocks/_menu";
+@import "blocks/_promo";
+@import "blocks/_lead";
+@import "blocks/_benefits";
+@import "blocks/_buttons";
 @import "blocks/_icons";
-// @import "blocks/_menu";
-// @import "blocks/_promo";
+@import "blocks/_background";
+
+
+
+// @import "blocks/__button-test";
 // @import "blocks/_about";
 // @import "blocks/_benefits";
 

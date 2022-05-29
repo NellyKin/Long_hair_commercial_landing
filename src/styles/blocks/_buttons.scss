@@ -1,10 +1,117 @@
-.buttons {
-  @include button__text;
+.button {
+  display: flex;
+  align-items: center;
   display: inline-block;
-  padding: 24px 48px;
-  background-color: $color-accent;
+  padding: calc(10 / 16)* 1rem;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: rgba($color-accent-orange, .8);
 
-  &:hover{
-    cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $color-light;
+    background-color: $color-accent-orange;
+    transition: 0.3s;
+    font-size: calc(17 / 16) * 1rem;
   }
 }
+
+//promo buttons
+
+.promo__buttons {
+  padding-top: calc(20 / 16) * 1rem;
+}
+
+.promo__button {
+  padding: 1.5rem 1rem;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: calc(25 / 16) * 1rem;
+}
+
+.promo__button_orange {
+  background-color: rgba($color-accent-orange, .8);
+  color: $color-dark;
+  border-radius: calc(25 / 16) * 1rem;
+    &:hover,
+      &:focus {
+        font-weight: 600;
+        background-color: $color-accent-orange;
+        color: $color-light;
+        transition: 0.3s;
+      }
+}
+
+.promo__button_transparent {
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    font-weight: 600;
+    border: 1px solid $color-accent-orange;
+    background-color: transparent;
+    margin-left: 20px;
+    transition: 0.4s;
+  }
+}
+
+//lead buttons
+.lead__button {
+  display: inline-block;
+  border: 1px solid $color-accent-orange;
+  background: transparent;
+  color: $color-accent-orange;
+  padding: 0.9rem;
+  border-radius: calc(30 / 16) * 1rem;
+  position: relative;
+  box-sizing: border-box;
+  font-size: calc(20 / 16) * 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+  &:hover,
+  :focus {
+      color: $color-dark;
+      transition: all 1s ease;
+  }
+}
+
+.lead__button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: $color-dark;
+  border-radius: calc(30 / 16) * 1rem;
+  background: rgba($color-accent-orange, 0.5);
+  transition: all 1s ease;
+}
+
+.lead__button:hover:before {
+  width: 100%;
+}
+// .lead__button:before {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 0;
+//   height: 42px;
+//   background: rgba(255, 255, 255, 0.3);
+//   border-radius: 5px;
+//   transition: all 2s ease;
+// }
+
+// .lead__button:hover:before {
+//   width: 100%;
+// }
+
+// .lead__button {
+//   font-weight: 700;
+//   font-size: 24px;
+//   line-height: 29px;
+//   color: $color-accent-orange:
+// }

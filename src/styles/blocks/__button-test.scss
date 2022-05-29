@@ -1,0 +1,46 @@
+// .lead__form {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .lead__button {
+//   --width: 210px;
+//   --height: 70px;
+//   position: relative;
+//   display: inline-block;
+//   width: var(--width);
+//   height: var(--height);
+//   transition: 2s;
+//   line-height: var(--height);
+//   text-align: center;
+
+//     &.lead__button:hover,
+//     .lead__button:focus {
+//       color: $color-accent-orange;
+//       font-weight: 600;
+//     }
+// }
+
+// .button__svg, .button__rect {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   fill: none;
+// }
+
+// .button__rect {
+//   stroke: $color-accent-orange;
+//   stroke-width: 2;
+//   stroke-dasharray: var(--height) var(--width);
+//   stroke-dashoffset: calc(2 * var(--width) + 2 * var(--height) + var(--height) / 2);
+//   transition: 2s;
+// }
+
+// .lead__button:hover .button__rect,
+// .lead__button:focus .button__rect {
+//   stroke: $color-accent-orange;
+//   stroke-dashoffset: calc(var(--height) + var(--height) / 2);
+// }
