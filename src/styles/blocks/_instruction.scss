@@ -1,0 +1,81 @@
+.instruction {}
+
+.instruction__container {
+  padding: 100px 5px;
+}
+
+.container {}
+
+.instruction__title {
+  font-weight: 800;
+  font-size: calc(48 / 16) * 1rem;
+  line-height: 1em;
+  color: $color-accent-orange;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.instruction__subtitle {
+  padding: calc(60 / 16) * 1rem 160px;
+  font-weight: 500;
+  font-size: calc(30 / 16) * 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  color: $color-light-gray;
+}
+
+.instruction__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.instruction__card {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  max-width: 70%;
+}
+
+.card__number {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: $color-accent-orange;
+  padding: 25px;
+  border: 2px solid $color-accent-orange;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.card__body {
+  padding: 35px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(187, 231, 216, 0.2);
+  border-radius: 20px;
+}
+
+.card__image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.card__content {
+  flex-basis: 80%;
+}
+
+.card__title {
+  padding-bottom: calc(20 / 16) * 1rem;
+  font-weight: 800;
+  font-size: calc(20 / 16) * 1rem;;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
